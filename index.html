@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veekee Stylez</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Veekee Stylez</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section about">
+        <h2>About Us</h2>
+        <p>We slay hair for a living. Veekee Stylez is a premier salon delivering quality styling, care, and beauty solutions tailored to you.</p>
+    </section>
+
+    <section id="services" class="section services">
+        <h2>Our Services</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Hair Styling</h3>
+                <p>Trendy cuts, braids, and color treatments for all hair types.</p>
+                <button>Book Now</button>
+            </div>
+            <div class="card">
+                <h3>Manicure & Pedicure</h3>
+                <p>Professional nail care and design to match your style.</p>
+                <button>Book Now</button>
+            </div>
+            <div class="card">
+                <h3>Hair Treatments</h3>
+                <p>Keratin, deep conditioning, and scalp treatments for healthy hair.</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Service Interested In:</label>
+            <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="hair">Hair Styling</option>
+                <option value="nails">Manicure & Pedicure</option>
+                <option value="treatment">Hair Treatment</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Veekee Stylez. All rights reserved.</p>
+    </footer>
+</body>
+</html>
